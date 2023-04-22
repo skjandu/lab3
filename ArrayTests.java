@@ -3,7 +3,7 @@ import org.junit.*;
 
 public class ArrayTests {
 	@Test 
-	public void testReverseInPlac1() {
+	public void testReverseInPlace1() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
